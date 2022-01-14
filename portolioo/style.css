@@ -1,0 +1,140 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* merriweather-regular - latin */
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/merriweather-v28-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/merriweather-v28-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* merriweather-900 - latin */
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/merriweather-v28-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/merriweather-v28-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+   /* header style start*/
+
+  .wrepper {
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+  .body{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+  }
+  .header_wrepper{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+  }
+  .header_list{
+      display: flex;
+      flex-wrap: wrap;
+  }  
+  .header_item{
+      margin-right: 30px;
+  }
+  .header_item:last-child{
+      margin-right: 20px;
+  }
+  .header_link{
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active{
+      opacity: .75;
+  }
+   /* header style end*/
+
+   /* intro style start*/
+   
+   .intro{
+    height: 100vh;
+    background: url(../portolioo/assets/img/bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 250px;
+    padding-right: 80px;
+   }
+
+   .intro_title{
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    padding-left: 80px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+   }
+
+   .intro_subtitle{
+    height: 120px;
+    left: 0%;
+    right: 6%;
+    top: 130px;
+    max-width: 470px;
+    padding-left: 80px;
+    margin-bottom: 25px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+   }
+
+   .intro_but{ 
+    padding: 8px 72px;
+    left: 80px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    background:#BDAE82;
+    color: #000000;
+    border: 0; 
+   }
+
+   .intro_but:hover, .intro_but:focus, .intro_but:active{
+       background-color: #DFCE9C;
+   }
+
+   .into_div_but{
+    padding-left: 80px; 
+   }
