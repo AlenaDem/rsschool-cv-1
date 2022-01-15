@@ -76,7 +76,7 @@
    /* intro style start*/
    
    .intro{
-    height: 100vh;
+    min-height: 100vh;
     background: url(../portolioo/assets/img/bg.jpg) no-repeat center;
     background-size: cover;
     padding-top: 250px;
@@ -138,3 +138,124 @@
    .into_div_but{
     padding-left: 80px; 
    }
+    /* intro style end*/
+
+    /* skills style start*/
+
+     .skills{
+         height: 482px;
+         background-color: #000000;
+         
+     }
+
+     .ckills_logo{
+        padding-left: 370px;
+        padding-top: 100px;
+     }
+
+     .skills_cards{
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-column-gap: 32px;
+         padding-top: 62px;
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+
+     .skills_card_foto{
+         margin-left: 107px;
+     }
+
+     .skills_card_mic{
+        margin-left: 120px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+     .skills_card_title{
+        width: 280px;
+        height: 40px;
+        left: calc(50% - 280px/2);
+        top: 100px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 40px; 
+        text-align: center;
+        color: #FFFFFF;
+     }
+
+     .skills_card_desc{
+        width: 280px;
+        height: 72px;
+        left: calc(50% - 280px/2);
+        top: 160px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 36px; 
+        text-align: center;
+     
+        color: #FFFFFF;
+     }
+    /* skills style end*/
+
+    /* porfolio style start*/
+
+    .portfolio{
+        height: 1500px;
+        background-color: #000000;
+    }
+
+    .portfolio_logo{
+        padding-left: 370px;
+        padding-top: 100px;
+    }
+
+    
+    
+    .portfolio_div_but{
+        margin-left: 272px;
+        margin-top: 60px;
+    }
+
+    .portfolio_but{
+       
+        height: 55px;
+        width: 220px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+
+        text-align: center;
+
+        color: #BDAE82;
+        background-color: #000;
+        border-color:#BDAE82;
+        bor
+    }
+
+    .portfolio_but:hover, .portfolio_but:focus, .portfolio_but:active{
+        background-color: #BDAE82;
+        color: #000;
+    }
+    
+    .potfolio_pic_autum{
+        height: 560px;
+        left: 0%;
+        right: 67.86%;
+        top: 0px;
+        
+        background: url(.jpg);
+        border-radius: 0px;
+    }
