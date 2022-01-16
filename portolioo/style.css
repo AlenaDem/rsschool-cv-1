@@ -393,3 +393,23 @@ border-radius: 0px;
         padding-top: 40px;
         padding-left: 115px;
     }
+
+    /* price style end*/
+
+    /* contacts style start*/
+
+    .contacts{
+        height: 700px;
+        background: #000;
+    }
+
+    /* contacts style end*/
+
+    /* footer style start*/
+
+    .footer{
+        height: 150px;
+        background: #000;
+    }
+
+    /* footer style end*/
