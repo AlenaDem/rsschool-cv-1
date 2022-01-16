@@ -1,4 +1,4 @@
-/* inter-regular - latin */
+ /* inter-regular - latin */
 @font-face {
     font-family: 'Inter';
     font-style: normal;
@@ -68,6 +68,7 @@
     left: 0px;
     width: 100%;
   }
+
   .header_link:hover, .header_link:focus, .header_link:active{
       opacity: .75;
   }
@@ -250,12 +251,145 @@
         color: #000;
     }
     
-    .potfolio_pic_autum{
-        height: 560px;
-        left: 0%;
-        right: 67.86%;
-        top: 0px;
+    .portfolio_div_pic{
+        height: 1145px; 
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    /* porfolio style end*/
+
+    /* video style start*/
+
+    .video{
+        height: 945px;
+        background: #000;
+    }
+
+    .video_logo_pic{
+        margin-top: 90px;
+        padding-left: 370px;
+        padding-right: 370px;
+    }
+
+    .video_video{
+        position: relative;
+        width: 1400px;
+        height: 705px;
+        background-image: url(../portolioo/assets/img/video-player.png);
+        margin-top: 60px;
+        margin-left: 50px;
+        margin-right: 20px;
+
+    }
+
+    .video_pic_2{
+         padding-left: 636px;
+         padding-top: 288px;   
+    }
+
+    /* video style end*/
+
+    /* price style start*/
+
+    .price_logo_pic{
+        margin-top: 90px;
+        padding-left: 370px;
+        padding-right: 370px;
+    }
+
+    .price{
+        height: 845px;
+        background: #000;
+    }
+
+    .price_items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 25px;
+        padding-top: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+    }
+
+    .price_item{
+        height: 505px;
+        width: 450px;
+        border: 2px solid #BDAE82;
+box-sizing: border-box;
+border-radius: 0px;
         
-        background: url(.jpg);
-        border-radius: 0px;
+        background: #000;
+    }
+
+    .price_item_1{
+        
+        top: 43px;
+
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 56px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .price_item_2{
+        
+        top: 119px;
+
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 48px;
+
+        text-align: center;
+
+        color: #BDAE82;
+    }
+
+    .price_item_3{
+        text-align: center;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+
+        color: #FFFFFF;
+    }
+
+    .price_but{
+        width: 220px;
+        height: 55px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        background:#BDAE82;
+        color: #000000;
+        border: 2px solid #BDAE82;
+        box-sizing: border-box;
+        border-radius: 0px; 
+    }
+        
+    .price_but:hover, .price_but:focus, .price_but:active{
+        background-color: #000;
+        color: #BDAE82;
+    }
+
+    .price_div_but{
+        width: 220px;
+        height: 55px;
+        padding-top: 40px;
+        padding-left: 115px;
     }
