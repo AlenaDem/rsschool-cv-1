@@ -319,8 +319,8 @@
         height: 505px;
         width: 450px;
         border: 2px solid #BDAE82;
-box-sizing: border-box;
-border-radius: 0px;
+        box-sizing: border-box;
+        border-radius: 0px;
         
         background: #000;
     }
@@ -396,20 +396,140 @@ border-radius: 0px;
 
     /* price style end*/
 
+    .footer{
+        min-height: 150px;
+        background-color: #000; 
+    
+     }
+    
+     .emb_div{
+        display: inline-block;
+     }
+    
+     .date_div{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 50px;
+        display: inline-block;
+
+        color: #FFFFFF;
+     }
+    
+     .git_div{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 50px;
+        display: inline-block;
+
+        color: #FFFFFF;
+     }
+
+     .left{
+         display: inline-block;
+     }
+    
+     .roll_div{
+         display: inline-block;
+     }
+
+     .roll{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 50px;
+        display: inline-block;
+
+        color: #FFFFFF;
+     }
+    
+     .cotceti_div{
+        display: inline-block;
+     }
+
     /* contacts style start*/
 
     .contacts{
-        height: 700px;
-        background: #000;
+        background-image: url(../portolioo/assets/img/1_contacts\ \(1\).jpg);
+        background-size: auto auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 700px;
+        background-color: #000;
+
     }
+
+    .contacts_div{
+        padding-top: 60px;
+        padding-right: 60px;
+        padding-left: 970px;
+    }
+
+    .contacts_text{
+        margin-top: 0px;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 80px;
+
+        color: #BDAE82;
+    }
+
+            input,
+            textarea{
+                width: 100%;
+                min-height: 38px;
+                padding: 5px 20px;
+                border: 2px solid #BDAE82;
+                color: #BDAE82;
+                font-size: 20px;
+                font-family: inherit;
+                margin-bottom: 20px;
+                background-color: transparent;
+            }
+
+            textarea{
+                min-height: 90px;
+                resize: none;
+            }
+
+            ::placeholder{
+                font-family: inherit;
+                font-size: 20px;
+                color: #BDAE82;
+            }
+
+    .contacts_but{
+        width: 220px;
+        height: 55px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        background:#BDAE82;
+        color: #000000;
+        border: 2px solid #BDAE82;
+        box-sizing: border-box;
+        border-radius: 0px; 
+    }
+        
+    .contacts_but:hover, .contacts_but:focus, .contacts_but:active{
+        background-color: #000;
+        color: #BDAE82;
 
     /* contacts style end*/
 
     /* footer style start*/
 
-    .footer{
-        height: 150px;
-        background: #000;
-    }
+
 
     /* footer style end*/
+
